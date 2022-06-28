@@ -60,38 +60,10 @@ function revealfn(){
 //
 // }
 
-function playsound(){
-  console.log("inside play sound function");
   for (var i=0; i< $(".parapl").length; i++) {
     console.log("inside for loop outside event listner mouseover");
     $(".parapl")[i].addEventListener("mouseover", function (){
       var audio = new Audio("sounds/tap.mp3");
       audio.play();
-      console.log("sound playing inside mouseover event listner");
-    });
-    console.log("inside loop outside event listner after");
+        });
   }
-  console.log("inside play function outside loop functjion after");
-}
-
-function stopsound(){
-  var audio = new Audio("sounds/crash.mp3");
-  audio.play();
-  console.log("inside stop sound");
-}
-
-///
-  let btn = document.getElementById("btn");
-  btn.addEventListener("click", ()=>{
-    //play something
-    console.log("inside click outside if condition");
-      if(btn.innerText=="Play"){
-        playsound();
-          btnText = document.getElementById("btn").innerHTML = "Pause";
-          console.log("inside if first conditon");
-      }else{
-        stopsound();
-          btnText = document.getElementById("btn").innerHTML = "Play";
-          console.log("inside  else part");
-      }
-  })
