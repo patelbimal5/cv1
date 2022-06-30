@@ -329,3 +329,14 @@ span{
    font-weight: 500 !important; 
    letter-spacing: 5px;
 }
+.btn-primary {
+  margin-top: 5px;
+  font-weight: 500 !important;
+  font-size: 1.25rem;
+  --bs-btn-color: black !important;
+  --bs-btn-bg: #7C99AC !important;
+  --bs-btn-border-color: #7C99AC !important;
+  --bs-btn-hover-color: #041C32 !important;
+  --bs-btn-hover-bg: #316B83 !important;
+  --bs-btn-hover-border-color: #316B83 !important;
+}
