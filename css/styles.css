@@ -324,6 +324,7 @@ span{
   color: white !important;
 }
 
+.parai{text-align: center;}
 
 /* when at tablet size (0-900) apply below styles  */
 @media (max-width: 900) {
