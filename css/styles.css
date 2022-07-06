@@ -15,7 +15,7 @@ h1{
   font-size: 3rem !important;
 }
 
-.intro, .description, .skills, .experience, .education, .programingLanguages {
+.intro, .description, .skills, .work, .experience, .education, .programingLanguages {
   align-items: center;
   box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
@@ -73,6 +73,7 @@ span{
   color: rgb(120, 122, 145);
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -95,11 +96,13 @@ span{
   padding: 2%;
   font-size: 4rem;
   font-family: 'Bad Script', cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .paraTech{
   letter-spacing: 2px;
   font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .description, .skills, .work, .programingLanguages{
@@ -293,6 +296,7 @@ span{
 
 .footer-icon{
   padding: 0% 2% 2% 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .footer-p{
