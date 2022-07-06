@@ -75,6 +75,7 @@ span{
   font-family: 'Roboto', sans-serif;
 }
 
+
 .intro-right{
   font-family: 'Cedarville Cursive', cursive;
 }
@@ -101,9 +102,12 @@ span{
   font-weight: 600;
 }
 
+.description, .skills, .work, .programingLanguages{
+  background-color: #9CB4CC;
+}
+
 .description{
   font-family: 'Roboto', sans-serif;
-  background-color: rgb(64, 104, 130);
   padding: 15%;
   text-align: center;
 }
@@ -125,7 +129,6 @@ span{
   text-align: center;
   font-family: 'Roboto', sans-serif;
   padding: 5% 10%;
-  background-color: rgb(64, 104, 130);
 }
 
 .logo{
@@ -189,8 +192,7 @@ span{
 
 .work{
   font-family: 'Roboto', sans-serif;
-  padding: 5% 10%;
-  background-color: rgb(64, 104, 130);
+  padding: 5% 10%;\
 }
 
 .workcol{
@@ -251,7 +253,6 @@ span{
 }
 
 .programingLanguages{
-  background-color: rgb(64, 104, 130);
     font-family: 'Roboto', sans-serif;
     padding: 5% 10%;
 }
@@ -282,11 +283,12 @@ span{
   padding: 5% 5% 5%;
   text-align: center;
   background-color: rgb(26, 55, 77);
+  color: rgb(120, 122, 145);
   box-shadow: 0 5px 15px 5px rgba(0, 0, 0, 0.2);
 }
 
 .href{
-  color: black;
+  color: rgb(120, 122, 145);
 }
 
 .footer-icon{
